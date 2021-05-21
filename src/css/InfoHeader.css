@@ -1,0 +1,8 @@
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(90 90 90);
+}
+
+#body {
+  background: url("../cloud.svg");
+}
