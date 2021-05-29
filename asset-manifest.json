@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/sdc-saliter.github.io/static/css/main.480c3864.chunk.css",
-    "main.js": "/sdc-saliter.github.io/static/js/main.4b5e4d6a.chunk.js",
-    "main.js.map": "/sdc-saliter.github.io/static/js/main.4b5e4d6a.chunk.js.map",
-    "runtime-main.js": "/sdc-saliter.github.io/static/js/runtime-main.3c79a003.js",
-    "runtime-main.js.map": "/sdc-saliter.github.io/static/js/runtime-main.3c79a003.js.map",
-    "static/js/2.473f0fa4.chunk.js": "/sdc-saliter.github.io/static/js/2.473f0fa4.chunk.js",
-    "static/js/2.473f0fa4.chunk.js.map": "/sdc-saliter.github.io/static/js/2.473f0fa4.chunk.js.map",
-    "static/js/3.9c3ee04a.chunk.js": "/sdc-saliter.github.io/static/js/3.9c3ee04a.chunk.js",
-    "static/js/3.9c3ee04a.chunk.js.map": "/sdc-saliter.github.io/static/js/3.9c3ee04a.chunk.js.map",
+    "main.css": "/sdc-saliter.github.io/static/css/main.6b6afd55.chunk.css",
+    "main.js": "/sdc-saliter.github.io/static/js/main.c6624a42.chunk.js",
+    "main.js.map": "/sdc-saliter.github.io/static/js/main.c6624a42.chunk.js.map",
+    "runtime-main.js": "/sdc-saliter.github.io/static/js/runtime-main.689ac1ca.js",
+    "runtime-main.js.map": "/sdc-saliter.github.io/static/js/runtime-main.689ac1ca.js.map",
+    "static/js/2.11df7e7f.chunk.js": "/sdc-saliter.github.io/static/js/2.11df7e7f.chunk.js",
+    "static/js/2.11df7e7f.chunk.js.map": "/sdc-saliter.github.io/static/js/2.11df7e7f.chunk.js.map",
+    "static/js/3.3c30d1f5.chunk.js": "/sdc-saliter.github.io/static/js/3.3c30d1f5.chunk.js",
+    "static/js/3.3c30d1f5.chunk.js.map": "/sdc-saliter.github.io/static/js/3.3c30d1f5.chunk.js.map",
     "index.html": "/sdc-saliter.github.io/index.html",
-    "static/css/main.480c3864.chunk.css.map": "/sdc-saliter.github.io/static/css/main.480c3864.chunk.css.map",
-    "static/js/2.473f0fa4.chunk.js.LICENSE.txt": "/sdc-saliter.github.io/static/js/2.473f0fa4.chunk.js.LICENSE.txt",
+    "static/css/main.6b6afd55.chunk.css.map": "/sdc-saliter.github.io/static/css/main.6b6afd55.chunk.css.map",
+    "static/js/2.11df7e7f.chunk.js.LICENSE.txt": "/sdc-saliter.github.io/static/js/2.11df7e7f.chunk.js.LICENSE.txt",
+    "static/media/brooke.be250b2a.jpg": "/sdc-saliter.github.io/static/media/brooke.be250b2a.jpg",
     "static/media/InfoHeader.css": "/sdc-saliter.github.io/static/media/cloud.5f99d9e2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c79a003.js",
-    "static/js/2.473f0fa4.chunk.js",
-    "static/css/main.480c3864.chunk.css",
-    "static/js/main.4b5e4d6a.chunk.js"
+    "static/js/runtime-main.689ac1ca.js",
+    "static/js/2.11df7e7f.chunk.js",
+    "static/css/main.6b6afd55.chunk.css",
+    "static/js/main.c6624a42.chunk.js"
   ]
 }
