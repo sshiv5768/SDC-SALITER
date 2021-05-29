@@ -1,93 +1,67 @@
 import "../css/Team.css";
+import logo from "../brooke.jpg";
+import { makeStyles } from "@material-ui/core/styles";
+import Avatar from "@material-ui/core/Avatar";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+    "& > *": {
+      margin: theme.spacing(1),
+    },
+  },
+  small: {
+    width: theme.spacing(3),
+    height: theme.spacing(3),
+  },
+  large: {
+    width: theme.spacing(15),
+    height: theme.spacing(15),
+  },
+}));
 
 function Team() {
+  const classes = useStyles();
   return (
     <>
-      <h2 class="display-4 fw-normal text-center">Our Team</h2>
-      <div class="row mx-2 my-2">
+      <div class="row mx-2 my-1">
         <div class="col-lg-4">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+          <Avatar alt="Remy Sharp" src={logo} className={classes.large} />
 
-          <h2>Heading</h2>
+          <h2>Shivlal Sharma</h2>
           <p>
             Some representative placeholder content for the three columns of
             text below the carousel. This is the first column.
           </p>
           <p>
-            <a class="btn btn-secondary" href="/#">
+            <a class="btn btn-secondary" href="#">
               View details »
             </a>
           </p>
         </div>
         <div class="col-lg-4">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+          <Avatar alt="Remy Sharp" src={logo} className={classes.large} />
 
-          <h2>Heading</h2>
+          <h2>Somyaraj Rana</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
           </p>
           <p>
-            <a class="btn btn-secondary" href="/#">
+            <a class="btn btn-secondary" href="#">
               View details »
             </a>
           </p>
         </div>
         <div class="col-lg-4">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
-
-          <h2>Heading</h2>
+          <Avatar alt="Remy Sharp" src={logo} className={classes.large} />
+          <h2>Vatsal Shah</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            And lastly this, the third column of representative placeholder
+            content.
           </p>
           <p>
-            <a class="btn btn-secondary" href="/#">
+            <a class="btn btn-secondary" href="#">
               View details »
             </a>
           </p>
