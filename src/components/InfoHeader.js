@@ -1,17 +1,24 @@
 import "../css/InfoHeader.css";
+import logo from "../desi.svg";
+import { Button, Heading, Paragraph } from "grommet";
 
 function InfoHeader() {
   return (
     <>
-      <div id="body" class="p-5 mb-4 rounded-3 ">
-        <div class="container-fluid py-5">
-          <h2 class="display-5">Student Developer Community</h2>
-          <p class="col-md-8 fs-4">
-            Sal Institute of Technology and Engineering Research
-          </p>
-          <button class="btn btn-primary btn-lg" type="button">
-            Join Discord
-          </button>
+      <div id="body" class="">
+        <div class="row">
+          <div class="col-6">
+            <Heading margin="small" alignSelf="end">
+              Student Developer Community
+            </Heading>
+            <Paragraph margin="small">
+              SAL Institute of Technology and Engineering Research
+            </Paragraph>
+            <Button primary label="Join Discord" margin="small" />
+          </div>
+          <div class="col-6">
+            <img src={logo} class="img-fluid flex-end" alt="..." />
+          </div>
         </div>
       </div>
     </>

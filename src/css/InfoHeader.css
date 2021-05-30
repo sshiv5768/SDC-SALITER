@@ -4,5 +4,10 @@ h2 {
 }
 
 #body {
-  background: url("../cloud.svg");
+  background: #ffff;
+}
+
+.img {
+  align-items: flex-start;
+  padding-left: 15px;
 }
