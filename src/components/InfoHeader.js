@@ -5,20 +5,18 @@ import { Button, Heading, Paragraph } from "grommet";
 function InfoHeader() {
   return (
     <>
-      <div id="body" class="">
-        <div class="row">
-          <div class="col-6">
-            <Heading margin="small" alignSelf="end">
-              Student Developer Community
-            </Heading>
-            <Paragraph margin="small">
-              SAL Institute of Technology and Engineering Research
-            </Paragraph>
-            <Button primary label="Join Discord" margin="small" />
-          </div>
-          <div class="col-6">
-            <img src={logo} class="img-fluid flex-end" alt="..." />
-          </div>
+      <div id="body" class="container">
+        <div class="box1">
+          <Heading margin="small" alignSelf="center">
+            Student Developer Community
+          </Heading>
+          <Paragraph margin="small" alignSelf="center">
+            SAL Institute of Technology and Engineering Research
+          </Paragraph>
+          <Button primary label="Join Discord" margin="small" />
+        </div>
+        <div class="box2">
+          <img src={logo} class="illustration" alt="..." />
         </div>
       </div>
     </>
