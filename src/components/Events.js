@@ -7,14 +7,10 @@ function Events() {
     <>
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <Heading
-            className="featurette-heading"
-            margin="large"
-            alignSelf="center"
-          >
+          <Heading className="featurette-heading" margin="medium">
             Meet. Inspire. Contribute.
           </Heading>
-          <Paragraph margin="large" alignSelf="center">
+          <Paragraph margin="medium">
             Connect with techies. Get inspired. Stay motivated.
           </Paragraph>
         </div>
