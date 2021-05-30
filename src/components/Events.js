@@ -1,19 +1,29 @@
 import "../css/Events.css";
+import event from "../team4.png";
+import { Button, Heading, Paragraph } from "grommet";
 
 function Events() {
   return (
     <>
-      <div class="p-4 p-md-5 mb-4 text-dark rounded bg-white my-3">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4 fst-italic">Meet. Inspire. Contribute.</h1>
-          <p class="lead my-3">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <Heading
+            className="featurette-heading"
+            margin="large"
+            alignSelf="center"
+          >
+            Meet. Inspire. Contribute.
+          </Heading>
+          <Paragraph margin="large" alignSelf="center">
             Connect with techies. Get inspired. Stay motivated.
-          </p>
-          <p class="lead mb-0">
-            <a href="/#" class="text-white fw-bold">
-              Continue reading...
-            </a>
-          </p>
+          </Paragraph>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src={event}
+            alt="ks"
+          />
         </div>
       </div>
     </>
