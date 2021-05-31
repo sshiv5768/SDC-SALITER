@@ -2,7 +2,7 @@ function Contact() {
   return (
     <>
       <section class="pt-8 pt-md-11 pb-8 pb-md-14 my-2">
-        <div class="container">
+        <div id="contact" class="container">
           <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8 text-center">
               <h2 class="fw-bold">Let us hear from you directly!</h2>

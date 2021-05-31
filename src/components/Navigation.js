@@ -22,13 +22,13 @@ function Nav() {
               <a class="nav-link active" aria-current="page" href="#">
                 Home
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#aboutus">
                 About us
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#team">
                 Team
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#contact">
                 Contact
               </a>
             </div>

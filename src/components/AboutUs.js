@@ -2,7 +2,7 @@ import "../css/AboutUs.css";
 function AboutUs() {
   return (
     <>
-      <div class="about-section">
+      <div id="aboutus" class="about-section">
         <h1>About Us</h1>
         <p>Some text about who we are and what we do.</p>
         <p>

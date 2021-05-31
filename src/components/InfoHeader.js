@@ -13,7 +13,13 @@ function InfoHeader() {
           <Paragraph margin="small" alignSelf="center">
             SAL Institute of Technology and Engineering Research
           </Paragraph>
-          <Button primary label="Join Discord" margin="small" />
+          <Button
+            primary
+            label="Join Discord"
+            margin="small"
+            href="https://discord.gg/6YZ2CedN"
+            hoverIndicator="true"
+          />
         </div>
         <div class="box2">
           <img src={logo} class="illustration" alt="..." />
