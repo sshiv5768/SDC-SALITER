@@ -17,7 +17,15 @@ function Team() {
   return (
     <>
       <Grid rows={["xsmall"]}>
-        <Heading margin="large">Meet the team of learners..</Heading>
+        <Heading
+          margin="large"
+          level="1"
+          fill="true"
+          responsive="true"
+          textAlign="center"
+        >
+          Meet the team of learners..
+        </Heading>
       </Grid>
       <div id="team" className="box">
         <Card
@@ -31,8 +39,16 @@ function Team() {
           </CardBody>
           <CardHeader pad={{ horizontal: "medium" }}>Shivlal Sharma</CardHeader>
           <CardFooter pad={{ horizontal: "small" }} background="light-2">
-            <Button icon={<Linkedin color="plain" />} hoverIndicator />
-            <Button icon={<Github color="plain" />} hoverIndicator />
+            <Button
+              href="https://www.linkedin.com/in/sharma-shivlal-91505a184/"
+              icon={<Linkedin color="plain" />}
+              hoverIndicator
+            />
+            <Button
+              href="https://github.com/sshiv5768"
+              icon={<Github color="plain" />}
+              hoverIndicator
+            />
           </CardFooter>
         </Card>
         <Card
@@ -46,8 +62,12 @@ function Team() {
           </CardBody>
           <CardHeader pad={{ horizontal: "medium" }}>Vatsal Vohera</CardHeader>
           <CardFooter pad={{ horizontal: "small" }} background="light-2">
-            <Button icon={<Linkedin color="plain" />} hoverIndicator />
-            <Button icon={<Github color="plain" />} hoverIndicator />
+            <Button
+              href="https://www.linkedin.com/in/vatsal-vohera-8204251b4/"
+              icon={<Linkedin color="plain" />}
+              hoverIndicator
+            />
+            <Button href="#" icon={<Github color="plain" />} hoverIndicator />
           </CardFooter>
         </Card>
       </div>

@@ -18,7 +18,6 @@ function InfoHeader() {
             label="Join Discord"
             margin="small"
             href="https://discord.gg/6YZ2CedN"
-            hoverIndicator="true"
           />
         </div>
         <div class="box2">
