@@ -1,13 +1,16 @@
 import "../css/Events.css";
+import "aos/dist/aos.css";
+import AOS from "aos";
 import event from "../team4.png";
 import { Button, Heading, Paragraph } from "grommet";
+AOS.init();
 
 function Events() {
   return (
     <>
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <Heading className="featurette-heading" margin="medium">
+          <Heading className="featurette-heading" margin="medium" d>
             Meet. Inspire. Contribute.
           </Heading>
           <Paragraph margin="medium">

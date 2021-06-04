@@ -33,6 +33,9 @@ function Team() {
           width="small"
           margin="large"
           background="#fffff"
+          data-aos="flip-right"
+          data-aos-delay="50"
+          data-aos-duration="2000"
         >
           <CardBody height="small">
             <Image fit="cover" src={profile} a11yTitle="bridge" />
@@ -56,6 +59,9 @@ function Team() {
           width="small"
           margin="large"
           background="#fffff"
+          data-aos="flip-left"
+          data-aos-delay="200"
+          data-aos-duration="4000"
         >
           <CardBody height="small">
             <Image fit="cover" src={profile1} a11yTitle="bridge" />

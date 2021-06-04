@@ -1,79 +1,99 @@
+import { Button, Image, Box } from "grommet";
+import "../css/Contact.css";
+import team from "../brooke.jpg";
+
 function Contact() {
   return (
     <>
-      <section class="pt-8 pt-md-11 pb-8 pb-md-14 my-2">
-        <div id="contact" class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8 text-center">
-              <h2 class="fw-bold">Let us hear from you directly!</h2>
-
-              <p class="fs-lg text-muted mb-7 mb-md-9">
-                We always want to hear from you! Let us know how we can best
-                help you and we'll do our very best.
-              </p>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-12 col-lg-10">
-              <form>
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="form-group mb-5">
-                      <label class="form-label" for="contactName">
-                        Full name
-                      </label>
-
-                      <input
-                        class="form-control"
-                        id="contactName"
-                        type="text"
-                        placeholder="Full name"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="form-group mb-5">
-                      <label class="form-label" for="contactEmail">
-                        Email
-                      </label>
-
-                      <input
-                        class="form-control"
-                        id="contactEmail"
-                        type="email"
-                        placeholder="hello@domain.com"
-                      />
-                    </div>
-                  </div>
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h1
+            class="display-4 fw-normal"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            Let us hear from you directly!
+          </h1>
+          <p class="lead fw-normal">
+            We always want to hear from you! Let us know how we can best help
+            you and we'll do our very best.
+          </p>
+          <button
+            type="button"
+            className="btn brand"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Send Message
+          </button>
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Send your queries
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
                 </div>
-                <div class="row">
-                  <div class="col-12">
-                    <div class="form-group mb-7 mb-md-9">
-                      <label class="form-label" for="contactMessage">
-                        What can we help you with?
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">
+                        Email address
                       </label>
-
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        We'll never share your email with anyone else.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label"
+                      >
+                        Explain your query
+                      </label>
                       <textarea
                         class="form-control"
-                        id="contactMessage"
-                        rows="5"
-                        placeholder="Tell us what we can help you with!"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
                       ></textarea>
                     </div>
-                  </div>
+                  </form>
                 </div>
-                <div class="row justify-content-center">
-                  <div class="col-auto">
-                    <button type="submit" class="btn btn-primary lift">
-                      Send message
-                    </button>
-                  </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="submit" class="btn brand">
+                    Submit
+                  </button>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }

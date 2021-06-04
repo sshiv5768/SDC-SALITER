@@ -12,7 +12,7 @@ function AboutUs() {
               <Typewriter
                 class="fw-light"
                 options={{
-                  strings: ["About us", "Know us and be a part of us!"],
+                  strings: ["About us", "Be a part of us!"],
                   autoStart: true,
                   loop: true,
                 }}

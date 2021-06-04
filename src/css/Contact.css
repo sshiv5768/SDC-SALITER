@@ -1,0 +1,13 @@
+.btn {
+  background-color: white;
+  color: black;
+}
+.brand {
+  border-color: #7d4cdb;
+  color: #7d4cdb;
+}
+
+.brand:hover {
+  background-color: #7d4cdb;
+  color: white;
+}
