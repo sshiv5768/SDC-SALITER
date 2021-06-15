@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sdc-saliter.github.io/static/css/main.4b1fcf87.chunk.css",
-    "main.js": "/sdc-saliter.github.io/static/js/main.df5e19e9.chunk.js",
-    "main.js.map": "/sdc-saliter.github.io/static/js/main.df5e19e9.chunk.js.map",
+    "main.js": "/sdc-saliter.github.io/static/js/main.f514aa63.chunk.js",
+    "main.js.map": "/sdc-saliter.github.io/static/js/main.f514aa63.chunk.js.map",
     "runtime-main.js": "/sdc-saliter.github.io/static/js/runtime-main.a4b9f0bc.js",
     "runtime-main.js.map": "/sdc-saliter.github.io/static/js/runtime-main.a4b9f0bc.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/sdc-saliter.github.io/static/css/2.7fc9bc2b.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.8a5b41ce.chunk.js",
     "static/css/main.4b1fcf87.chunk.css",
-    "static/js/main.df5e19e9.chunk.js"
+    "static/js/main.f514aa63.chunk.js"
   ]
 }
