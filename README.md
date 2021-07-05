@@ -1,5 +1,7 @@
 # SDC-SALITER
 SDC-SALITER is a official portal of student developer community of SAL Institute of Technology and Engineering Research college. Here students learn and develope something new and something interesting.
+![Screenshot 2021-07-05 090559](https://user-images.githubusercontent.com/40575397/124414474-7392ac80-dd70-11eb-8c35-3bfd4c3e96da.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
